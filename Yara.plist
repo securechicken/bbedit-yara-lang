@@ -14,6 +14,10 @@
 			<key>BBLMLanguageSuffix</key>
 			<string>.yara</string>
 		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.yar</string>
+		</dict>
 	</array>
 	<key>BBEditDocumentType</key>
 	<string>CodelessLanguageModule</string>
@@ -84,10 +88,10 @@
 		<key>String Pattern</key>
 		<string><![CDATA[
 		(?x:
-			((?<=\=\s)"(\\"|[^"\r]|\\\r)*") |
-			((?<=import\s)"(\\"|[^"\r]|\\\r)+") |
-			((?<=include\s)"(\\"|[^"\r]|\\\r)+") |
-			((?<=\=\s)/(\\/|[^/\r]|\\\r)+/)
+			((?<=\=)\s*"(\\"|[^"\r]|\\\r)*") |
+			((?<=import)\s*"(\\"|[^"\r]|\\\r)+") |
+			((?<=include)\s*"(\\"|[^"\r]|\\\r)+") |
+			((?<=\=)\s*/(\\/|[^/\r]|\\\r)+/)
 		)
 		]]></string>
 		<key>Prefix for Functions</key>
