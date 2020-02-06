@@ -81,6 +81,7 @@
 			(?s:/\*.+?([\s]+)?\*/)
 		)
 		]]></string>
+		<key>String Pattern</key>
 		<string><![CDATA[
 		(?x:
 			((?<=\=\s)"(\\"|[^"\r]|\\\r)*") |
@@ -101,7 +102,6 @@
 		<string>{</string>
 		<key>Close Statement Blocks</key>
 		<string>}</string>
-		<key>String Pattern</key>
 	</dict>
 </dict>
 </plist>
