@@ -1,10 +1,11 @@
 rule type_Threat_RuleName : Namespace {
 	meta:
+		description = "Blah"
 		author = "#NAME#"
-		type = "type"
-		description = "description"
-		date = "#DATETIME YYYY-MM-dd#"
-		version = "0.1"
+		copyright = "#NAME#"
+		version = "1.0"
+		last_modified = "#DATETIME YYYY-MM-dd#"
+		hash = "ABC"
 	strings:
 		// This is a comment
 		$a1 = "aaa" nocase ascii wide
