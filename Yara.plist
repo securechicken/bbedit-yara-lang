@@ -2,12 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BBLMLanguageCode</key>
-	<string>YARA</string>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
 	<key>BBLMLanguageDisplayName</key>
 	<string>Yara</string>
-	<key>BBLMPreferredFilenameExtension</key>
-	<string>yara</string>
+	<key>BBLMLanguageCode</key>
+	<string>YARA</string>
 	<key>BBLMSuffixMap</key>
 	<array>
 		<dict>
@@ -19,20 +19,24 @@
 			<string>.yar</string>
 		</dict>
 	</array>
-	<key>BBEditDocumentType</key>
-	<string>CodelessLanguageModule</string>
-	<key>BBLMColorsSyntax</key>
-	<true/>
-	<key>BBLMIsCaseSensitive</key>
-	<false/>
-	<key>BBLMScansFunctions</key>
-	<true/>
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>yara</string>
 	<key>BBLMSupportsTextCompletion</key>
 	<true/>
 	<key>BBLMCanSpellCheckCodeRuns</key>
 	<false/>
+	<key>BBLMReferenceSearchURLTemplate</key>
+	<string>https://yara.readthedocs.io/en/stable/search.html?q=__SYMBOLNAME__&amp;check_keywords=yes&amp;area=default</string>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMCommentLineDefault</key>
+	<string>//</string>
 	<key>BBLMKeywordList</key>
-		<array>
+	<array>
 		<string>rule</string>
 		<string>meta</string>
 		<string>strings</string>
